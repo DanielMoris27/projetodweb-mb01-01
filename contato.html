@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Projeto Site - Daniel Moris da Conceição </title>
+  <title>Projeto Site - Daniel Moris</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Latest compiled and minified CSS -->
@@ -117,25 +117,31 @@
     </div>
   </header>
 
-  <div>
-    <form>
+  <div class="container-sm flex-container flex-row g-2">
+    <div id="espaco-formalario" class="p-md-5">
+    <form id="contact-form">
       <label class="form-label" for="fname" id="label-name">Primeiro nome:</label>
-      <input type="text" id="fname" name="fname" placeholder="digite seu nome aqui" readonly><br><br>
+      <input class="form-control" type="text" id="fname" name="fname" placeholder="digite seu nome aqui" ><br><br>
     <label for="emailAdress" id="label-email">E-mail:</label>
-      <input type="email" id="emailAdress"  placeholder="digite seu e-mail aqui" readonly><br><br>
+      <input class="form-control" type="email" id="emailAdress"  placeholder="digite seu e-mail aqui" ><br><br>
 
       <label for="subject-title" id="label-s-title">Assunto</label>
-      <input type="text" id="subject-title" placeholder="Digite o assunto">
+      <input class="form-control" type="text" id="subject-title" placeholder="Digite o assunto">
       <br><br>
-      <label for="mensagem">mensagem</label>
-      <textarea name="mensagem" id="mensagem" rows="5" cols="50" form="contact-form" placeholder="Insira seu texto aqui"></textarea><br><br>
-      <button class="btn btn-primary btn-lg">Enviar</button>
+      <label for="mensagem">Mensagem</label>
+      <textarea class="form-control" name="mensagem" id="mensagem" rows="5" cols="50" form="contact-form" placeholder="Insira seu texto aqui"></textarea><br><br>
+      <button class="btn btn-primary btn-lg">Enviar</button><br><br>
     </form>
   </div>
-<div><h1>Dados de contato</h1>
+  
+</div><div id="dados-contato" class="p-md-5">
+  <h1>Dados de contato</h1>
 <p>
-  <span>Telefone</span>
+  <span class="form-label">Telefone</span> +55 (11) 96345-3093
+  <br>
+  <span>E-mail:</span> jannymoon27@gmail.com
 </p></div>
+
 
 
   <div class="container">
