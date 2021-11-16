@@ -13,3 +13,17 @@
   margin-bottom: 1rem;
   font-size: 2rem;
 }
+
+.circle-image{
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 9rem;
+  height: 9rem;
+}
+
+.circle-image img{
+  display: flex;
+  flex-direction: row;
+flex-wrap: wrap;
+}
